@@ -9,6 +9,15 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
+      resolve: "@highlight-run/gatsby-plugin-highlight",
+      options: {
+        orgID: "pzg0y0d9",
+        options: {
+          environment: "gatsby-demo",
+        },
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
