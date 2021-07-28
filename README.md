@@ -20,6 +20,7 @@ module.exports = {
     {
       resolve: "@highlight-run/gatsby-plugin-highlight",
       options: {
+        orgID: 'MY_ORG_ID',
         // See all the options here: https://docs.highlight.run/reference#options
     	disableNetworkRecording: false,
     	disableConsoleRecording: false,
